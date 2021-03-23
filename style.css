@@ -4,6 +4,39 @@
     padding: 0;
 }
 
+
+nav{
+    height: 100px;
+    position: fixed;
+    top: 40px;
+    right: 20px;
+    width: 4    00px;
+    z-index: 1;
+}
+
+nav ul li{
+    list-style: none;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.circle{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
 .card{
     height: 100vh;
 }
